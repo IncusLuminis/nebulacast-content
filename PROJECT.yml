@@ -1,10 +1,10 @@
 schema_version: 1
 
 project:
-  name: "{{PROJECT_NAME}}"
-  slug: "{{PROJECT_SLUG}}"
-  description: "{{PROJECT_DESCRIPTION}}"
-  type: "{{PROJECT_TYPE}}"
+  name: "nebulacast-content"
+  slug: "nebulacast-content"
+  description: "Content production pipeline and media assets for the NebulaCast project."
+  type: "content"
   version: 0.1.0
   status: active
 
@@ -12,7 +12,7 @@ organization:
   name: IncusLuminis
 
 repository:
-  visibility: "{{VISIBILITY}}"
+  visibility: "public"
   default_branch: main
   template: true
 

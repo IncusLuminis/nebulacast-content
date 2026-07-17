@@ -1,6 +1,6 @@
-# {{PROJECT_NAME}}
+# nebulacast-content
 
-> {{PROJECT_DESCRIPTION}}
+> Content production pipeline and media assets for the NebulaCast project.
 
 ---
 
