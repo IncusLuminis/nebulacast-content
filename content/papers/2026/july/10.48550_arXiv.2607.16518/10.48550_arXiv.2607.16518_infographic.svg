@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1120" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <title>Комплекс Полана-Эулалия: перепись, состав, размеры</title>
+  <style>
+    .viz-root {
+      color-scheme: light;
+      --surface-1:      #fcfcfb;
+      --surface-2:      #f9f9f7;
+      --text-primary:   #0b0b0b;
+      --text-secondary: #52514e;
+      --text-muted:     #898781;
+      --gridline:       #e1e0d9;
+      --baseline:       #c3c2b7;
+      --border:         rgba(11,11,11,0.10);
+      --series-1:       #2a78d6;
+      --series-1-tint:  #eaf1fb;
+      --dark-body:      #232220;
+      --chip-bg:        #f3f2ee;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:where(:not([data-theme="light"])) .viz-root {
+        color-scheme: dark;
+        --surface-1:      #1a1a19;
+        --surface-2:      #0d0d0d;
+        --text-primary:   #ffffff;
+        --text-secondary: #c3c2b7;
+        --text-muted:     #898781;
+        --gridline:       #2c2c2a;
+        --baseline:       #383835;
+        --border:         rgba(255,255,255,0.10);
+        --series-1:       #3987e5;
+        --series-1-tint:  #1f2c3d;
+        --dark-body:      #d8d6cf;
+        --chip-bg:        #232220;
+      }
+    }
+    :root[data-theme="dark"] .viz-root {
+      color-scheme: dark;
+      --surface-1:      #1a1a19;
+      --surface-2:      #0d0d0d;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted:     #898781;
+      --gridline:       #2c2c2a;
+      --baseline:       #383835;
+      --border:         rgba(255,255,255,0.10);
+      --series-1:       #3987e5;
+      --series-1-tint:  #1f2c3d;
+      --dark-body:      #d8d6cf;
+      --chip-bg:        #232220;
+    }
+    .bg   { fill: var(--surface-2); }
+    .card { fill: var(--surface-1); stroke: var(--border); stroke-width: 1; }
+    .h1   { fill: var(--text-primary); font-size: 30px; font-weight: 700; }
+    .h2   { fill: var(--text-primary); font-size: 20px; font-weight: 700; }
+    .lead { fill: var(--text-secondary); font-size: 14px; }
+    .lbl  { fill: var(--text-secondary); font-size: 13px; }
+    .muted{ fill: var(--text-muted); font-size: 12px; }
+    .num  { fill: var(--series-1); font-size: 52px; font-weight: 700; }
+    .numna{ fill: var(--text-muted); font-size: 40px; font-weight: 700; }
+    .src  { fill: var(--text-muted); font-size: 11px; }
+    .rule { stroke: var(--gridline); stroke-width: 1; }
+    .base { stroke: var(--baseline); stroke-width: 1.5; }
+  </style>
+
+  <g class="viz-root">
+    <rect class="bg" x="0" y="0" width="1000" height="1120" rx="0"/>
+
+    <!-- Header -->
+    <text class="h1" x="40" y="52">Комплекс Полана-Эулалия: что мы знаем о популяции</text>
+    <text class="lead" x="40" y="78">Тёмные, ныне известные фрагменты одного и того же древнего родительского тела — и, вероятно, родня Бенну и Рюгу</text>
+
+    <!-- ============ PANEL 1 — counts ============ -->
+    <text class="h2" x="40" y="128">1. Сколько их?</text>
+
+    <!-- Card A: Polana -->
+    <rect class="card" x="40" y="146" width="440" height="176" rx="10"/>
+    <text class="num" x="66" y="222">≈ 3 578</text>
+    <text class="lbl" x="66" y="248">известных членов семейства Полана</text>
+    <text class="muted" x="66" y="268">по критериям отбора Walsh et al. (2013)</text>
+    <line class="rule" x1="66" y1="282" x2="454" y2="282"/>
+    <text class="muted" x="66" y="302">возраст семейства: &gt; 2 млрд лет</text>
+
+    <!-- Card B: Eulalia -->
+    <rect class="card" x="500" y="146" width="460" height="176" rx="10" stroke-dasharray="4 4"/>
+    <text class="numna" x="526" y="210">н/д</text>
+    <text class="lbl" x="526" y="234">точная перепись семейства Эулалия</text>
+    <text class="lbl" x="526" y="252">пока не устоялась в литературе</text>
+    <line class="rule" x1="526" y1="266" x2="934" y2="266"/>
+    <text class="muted" x="526" y="286">родительское тело: 100–160 км</text>
+    <text class="muted" x="526" y="304">возраст семейства: 0,9–1,5 млрд лет</text>
+
+    <!-- ============ PANEL 2 — composition ============ -->
+    <text class="h2" x="40" y="368">2. Из чего они состоят?</text>
+
+    <rect class="card" x="40" y="386" width="920" height="184" rx="10"/>
+
+    <!-- row 1 -->
+    <circle cx="76" cy="426" r="7" fill="var(--text-muted)"/>
+    <text class="lbl" x="98" y="431" font-weight="700">Тип поверхности</text>
+    <text class="lead" x="290" y="431">тёмные, углеродистые астероиды C-/B-комплекса</text>
+
+    <!-- row 2 -->
+    <circle cx="76" cy="470" r="7" fill="none" stroke="var(--text-muted)" stroke-width="2"/>
+    <line x1="71" y1="470" x2="81" y2="470" stroke="var(--text-muted)" stroke-width="2"/>
+    <text class="lbl" x="98" y="475" font-weight="700">Железистые глины (0,7 мкм)</text>
+    <text class="lead" x="290" y="475">не обнаружены ни у одного члена семейства</text>
+
+    <!-- row 3 -->
+    <circle cx="76" cy="514" r="7" fill="var(--series-1)"/>
+    <path d="M 72 514 l 3 4 l 6 -8" stroke="var(--surface-1)" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="lbl" x="98" y="519" font-weight="700">Магниевые глины (2,7 мкм)</text>
+    <text class="lead" x="290" y="519">подтверждены на всех 4 наблюдавшихся JWST объектах —</text>
+    <text class="lead" x="290" y="538">признак водного изменения в далёком прошлом</text>
+
+    <text class="muted" x="66" y="558">и то, и другое — прямой результат данной работы (JWST NIRSpec, 2,7 мкм)</text>
+
+    <!-- ============ PANEL 3 — size & albedo ============ -->
+    <text class="h2" x="40" y="614">3. Какие они большие и тёмные?</text>
+    <text class="muted" x="40" y="634">диаметр в масштабе (км); альбедо — доля отражённого света</text>
+
+    <rect class="card" x="40" y="652" width="920" height="360" rx="10"/>
+
+    <!-- baseline -->
+    <line class="base" x1="90" y1="900" x2="910" y2="900"/>
+
+    <!-- Polana d=55.3km r_px=70 -->
+    <circle cx="160" cy="830" r="70" fill="var(--dark-body)"/>
+    <text class="lbl" x="160" y="944" text-anchor="middle" font-weight="700">(142) Полана</text>
+    <text class="muted" x="160" y="962" text-anchor="middle">Ø ≈ 55,3 км</text>
+    <text class="muted" x="160" y="978" text-anchor="middle">альбедо ≈ 0,045</text>
+    <text class="src" x="160" y="994" text-anchor="middle">(родитель семейства, эталонное значение)</text>
+
+    <!-- Eulalia d=37.3km r_px=47.2 -->
+    <circle cx="360" cy="852.8" r="47.2" fill="var(--dark-body)"/>
+    <text class="lbl" x="360" y="944" text-anchor="middle" font-weight="700">(495) Эулалия</text>
+    <text class="muted" x="360" y="962" text-anchor="middle">Ø ≈ 37,3 км</text>
+    <text class="muted" x="360" y="978" text-anchor="middle">альбедо 0,062 ± 0,008</text>
+
+    <!-- Hibbs d=10.3 r=13 -->
+    <circle cx="540" cy="887" r="13" fill="var(--dark-body)"/>
+    <text class="lbl" x="540" y="944" text-anchor="middle" font-weight="700">(2441) Хиббс</text>
+    <text class="muted" x="540" y="962" text-anchor="middle">Ø ≈ 10,3 км</text>
+    <text class="muted" x="540" y="978" text-anchor="middle">альбедо 0,055 ± 0,036</text>
+
+    <!-- Brokoff d=9.8 r=12.4 -->
+    <circle cx="700" cy="887.6" r="12.4" fill="var(--dark-body)"/>
+    <text class="lbl" x="700" y="944" text-anchor="middle" font-weight="700">(6769) Брокофф</text>
+    <text class="muted" x="700" y="962" text-anchor="middle">Ø ≈ 9,8 км</text>
+    <text class="muted" x="700" y="978" text-anchor="middle">альбедо 0,068 ± 0,010</text>
+
+    <!-- Hornstein d=9.3 r=11.8 -->
+    <circle cx="850" cy="888.2" r="11.8" fill="var(--dark-body)"/>
+    <text class="lbl" x="850" y="944" text-anchor="middle" font-weight="700">(6712) Хорнстейн</text>
+    <text class="muted" x="850" y="962" text-anchor="middle">Ø ≈ 9,3 км</text>
+    <text class="muted" x="850" y="978" text-anchor="middle">альбедо 0,040 ± 0,007</text>
+
+    <text class="src" x="66" y="1000" text-anchor="start">Все пять — низкоальбедные (≈4–7% отражения); силуэты условны, к цвету/классификации не привязаны.</text>
+    <text class="src" x="66" y="1018" text-anchor="start">Форма трёх мелких тел (Хиббс, Хорнстейн, Брокофф) по детальным 3D-моделям не установлена — известны лишь</text>
+    <text class="src" x="66" y="1034" text-anchor="start">амплитуды кривых блеска (Waszczak et al. 2015; Hanuš et al. 2011); здесь — условный тёмный силуэт, не измеренная форма.</text>
+
+    <!-- Footer sources -->
+    <line class="rule" x1="40" y1="1058" x2="960" y2="1058"/>
+    <text class="src" x="40" y="1076">Источники: Walsh, Delbó, Bottke, Vokrouhlický &amp; Lauretta (2013), Icarus 225, 283–297 — состав семейства, счёт Поланы, возраст и размер родителей.</text>
+    <text class="src" x="40" y="1092">arXiv 2607.16518, Табл. 1 и §1.1 — радиусы, альбедо и спектральные результаты (495) Эулалия, (2441) Хиббс, (6712) Хорнстейн, (6769) Брокофф.</text>
+    <text class="src" x="40" y="1108">Диаметр и альбедо (142) Полана — каталожное значение (NASA/JPL Small-Body Database).</text>
+  </g>
+</svg>
