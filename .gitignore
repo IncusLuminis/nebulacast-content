@@ -31,3 +31,12 @@ dist/
 tmp/
 temp/
 .cache/
+
+# Source PDFs downloaded for the paper-summarization pipeline (Content_Translator) -
+# these are the raw external articles, not our own content, and never get committed.
+content/**/*.pdf
+
+# Incus_Designer-generated illustrations (raster, via Codex) - large media doesn't live
+# in git per Media_keeper's charter; these get handed to Media_keeper for CDN storage
+# instead. The infographic SVGs stay - text/vector, small, fine to version normally.
+content/**/*_illustration.png
