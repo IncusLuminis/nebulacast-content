@@ -40,3 +40,11 @@ content/**/*.pdf
 # in git per Media_keeper's charter; these get handed to Media_keeper for CDN storage
 # instead. The infographic SVGs stay - text/vector, small, fine to version normally.
 content/**/*_illustration.png
+
+# Direct-upload payload for media-nebulacast.pages.dev. Heavy binaries stay
+# local; the generated catalog and Pages metadata remain versioned.
+media/**
+!media/.gitkeep
+!media/index.html
+!media/library.json
+!media/_headers

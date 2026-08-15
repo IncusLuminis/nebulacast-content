@@ -1,0 +1,20 @@
+name: nebulacast
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - matplotlib
+  - astropy
+  - pandas
+  - shapely
+  - pillow
+  - imageio
+  - ffmpeg
+  - ipywidgets
+  - tqdm
+  - jupyterlab
+  - notebook
+  - nbformat
+  - nbconvert
