@@ -1,0 +1,22 @@
+/*
+  Access-Control-Allow-Origin: *
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+/library.json
+  Cache-Control: no-cache
+
+/*.webm
+  Cache-Control: public, max-age=3600
+
+/*.mp4
+  Cache-Control: public, max-age=3600
+
+/*.jpg
+  Cache-Control: public, max-age=3600
+
+/*.jpeg
+  Cache-Control: public, max-age=3600
+
+/*.png
+  Cache-Control: public, max-age=3600

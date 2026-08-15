@@ -1,0 +1,213 @@
+{
+  "generatedAt": "2026-08-14T20:21:55+00:00",
+  "count": 23,
+  "assets": [
+    {
+      "path": "animations/bar_vs_nobar_decay.mp4",
+      "name": "bar_vs_nobar_decay.mp4",
+      "title": "Bar Vs Nobar Decay",
+      "type": "video",
+      "format": "mp4",
+      "size": 93965,
+      "modified": "2026-08-08T13:00:41+00:00"
+    },
+    {
+      "path": "animations/bar_vs_nobar_decay.webm",
+      "name": "bar_vs_nobar_decay.webm",
+      "title": "Bar Vs Nobar Decay",
+      "type": "video",
+      "format": "webm",
+      "size": 99266,
+      "modified": "2026-08-08T12:57:54+00:00"
+    },
+    {
+      "path": "animations/bh_feeding_ngc4696.mp4",
+      "name": "bh_feeding_ngc4696.mp4",
+      "title": "Bh Feeding Ngc4696",
+      "type": "video",
+      "format": "mp4",
+      "size": 111367,
+      "modified": "2026-08-12T10:56:13+00:00"
+    },
+    {
+      "path": "animations/bh_feeding_ngc4696.webm",
+      "name": "bh_feeding_ngc4696.webm",
+      "title": "Bh Feeding Ngc4696",
+      "type": "video",
+      "format": "webm",
+      "size": 139858,
+      "modified": "2026-08-12T10:56:05+00:00"
+    },
+    {
+      "path": "animations/exoplanet_signal_in_white_noise.mp4",
+      "name": "exoplanet_signal_in_white_noise.mp4",
+      "title": "Exoplanet Signal In White Noise",
+      "type": "video",
+      "format": "mp4",
+      "size": 9484512,
+      "modified": "2026-08-08T09:15:38+00:00"
+    },
+    {
+      "path": "animations/exoplanet_signal_in_white_noise.webm",
+      "name": "exoplanet_signal_in_white_noise.webm",
+      "title": "Exoplanet Signal In White Noise",
+      "type": "video",
+      "format": "webm",
+      "size": 10061142,
+      "modified": "2026-08-08T10:08:38+00:00"
+    },
+    {
+      "path": "animations/exoplanet_signal_vs_star_noise.mp4",
+      "name": "exoplanet_signal_vs_star_noise.mp4",
+      "title": "Exoplanet Signal Vs Star Noise",
+      "type": "video",
+      "format": "mp4",
+      "size": 581091,
+      "modified": "2026-08-08T09:10:34+00:00"
+    },
+    {
+      "path": "animations/gaia_white_dwarfs_synthetic.mp4",
+      "name": "gaia_white_dwarfs_synthetic.mp4",
+      "title": "Gaia White Dwarfs Synthetic",
+      "type": "video",
+      "format": "mp4",
+      "size": 821010,
+      "modified": "2026-07-08T10:33:36+00:00"
+    },
+    {
+      "path": "images/NGC_4696.jpg",
+      "name": "NGC_4696.jpg",
+      "title": "Ngc 4696",
+      "type": "image",
+      "format": "jpg",
+      "size": 2884081,
+      "modified": "2026-08-12T09:05:17+00:00"
+    },
+    {
+      "path": "logos/HPjE9yqX0AA85xp.jpeg",
+      "name": "HPjE9yqX0AA85xp.jpeg",
+      "title": "Hpje9Yqx0Aa85Xp",
+      "type": "image",
+      "format": "jpeg",
+      "size": 141229,
+      "modified": "2026-08-13T11:40:37+00:00"
+    },
+    {
+      "path": "logos/incusluminis.jpg",
+      "name": "incusluminis.jpg",
+      "title": "Incusluminis",
+      "type": "image",
+      "format": "jpg",
+      "size": 361837,
+      "modified": "2026-07-17T06:23:36+00:00"
+    },
+    {
+      "path": "logos/logo_1.jpg",
+      "name": "logo_1.jpg",
+      "title": "Logo 1",
+      "type": "image",
+      "format": "jpg",
+      "size": 384980,
+      "modified": "2026-08-12T10:59:36+00:00"
+    },
+    {
+      "path": "logos/logo_2.jpg",
+      "name": "logo_2.jpg",
+      "title": "Logo 2",
+      "type": "image",
+      "format": "jpg",
+      "size": 360303,
+      "modified": "2026-08-12T11:00:02+00:00"
+    },
+    {
+      "path": "logos/logo_3.jpg",
+      "name": "logo_3.jpg",
+      "title": "Logo 3",
+      "type": "image",
+      "format": "jpg",
+      "size": 124787,
+      "modified": "2026-08-12T11:00:29+00:00"
+    },
+    {
+      "path": "logos/logo_4.jpg",
+      "name": "logo_4.jpg",
+      "title": "Logo 4",
+      "type": "image",
+      "format": "jpg",
+      "size": 124977,
+      "modified": "2026-08-12T11:00:54+00:00"
+    },
+    {
+      "path": "placards/N1.jpg",
+      "name": "N1.jpg",
+      "title": "N1",
+      "type": "image",
+      "format": "jpg",
+      "size": 150699,
+      "modified": "2026-08-13T06:46:08+00:00"
+    },
+    {
+      "path": "placards/N2.jpg",
+      "name": "N2.jpg",
+      "title": "N2",
+      "type": "image",
+      "format": "jpg",
+      "size": 162078,
+      "modified": "2026-08-13T06:46:26+00:00"
+    },
+    {
+      "path": "placards/N3.jpg",
+      "name": "N3.jpg",
+      "title": "N3",
+      "type": "image",
+      "format": "jpg",
+      "size": 122974,
+      "modified": "2026-08-13T06:46:34+00:00"
+    },
+    {
+      "path": "placards/N4.jpg",
+      "name": "N4.jpg",
+      "title": "N4",
+      "type": "image",
+      "format": "jpg",
+      "size": 114459,
+      "modified": "2026-08-13T06:46:42+00:00"
+    },
+    {
+      "path": "placards/N5.jpg",
+      "name": "N5.jpg",
+      "title": "N5",
+      "type": "image",
+      "format": "jpg",
+      "size": 200867,
+      "modified": "2026-08-13T06:46:47+00:00"
+    },
+    {
+      "path": "placards/N6.jpg",
+      "name": "N6.jpg",
+      "title": "N6",
+      "type": "image",
+      "format": "jpg",
+      "size": 120425,
+      "modified": "2026-08-13T06:46:52+00:00"
+    },
+    {
+      "path": "placards/N7.jpg",
+      "name": "N7.jpg",
+      "title": "N7",
+      "type": "image",
+      "format": "jpg",
+      "size": 254910,
+      "modified": "2026-08-13T06:46:58+00:00"
+    },
+    {
+      "path": "videos/apjae84c0f3_video.mp4",
+      "name": "apjae84c0f3_video.mp4",
+      "title": "Apjae84C0F3 Video",
+      "type": "video",
+      "format": "mp4",
+      "size": 23573371,
+      "modified": "2026-08-14T20:03:59+00:00"
+    }
+  ]
+}
